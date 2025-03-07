@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Big+Shoulders:opsz,wght@10..72,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+IT+Moderna:wght@100..400&family=Sigmar&display=swap" rel="stylesheet"><title>tugas 4</title>
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+<body class="font-[Playfair] bg-[url(https://i.pinimg.com/736x/42/77/4c/42774c4f3ab702d6357ad70e5f02c131.jpg)]">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+    <nav class="bg-blue-900 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a class="text-xl font-bold">Alma Kayla Putri</a>
+            <div class="flex space-x-4 nav-scroller">
+                <a class="hover:underline nav-item nav-link link-body-emphasis active" href="#">Home</a>
+                <div class="relative">
+                    <button id="dropdown-btn" class="hover:underline">About ▼</button>
+                    <div id="dropdown-menu" class="hidden absolute bg-sky-200 text-blue-700 shadow-md mt-2 rounded">
+                        <a class="block px-4 py-2 hover:bg-blue-300 nav-item nav-link link-body-emphasis"  href="#Myself" >Myself</a>
+                        <a class="block px-4 py-2 hover:bg-blue-300 nav-item nav-link link-body-emphasis"  href="#Activities" >Activities</a>
+                        <a class="block px-4 py-2 hover:bg-blue-300 nav-item nav-link link-body-emphasis"  href="#MyFriends" >My Friends</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <script>
+        const dropdownBtn = document.getElementById("dropdown-btn");
+        const dropdownMenu = document.getElementById("dropdown-menu");
+
+        dropdownBtn.addEventListener("click", () => {
+            dropdownMenu.classList.toggle("hidden");
+        });
+    </script>
+    <div class="bg-blue-900/50 text-center place-items-center">
+        <h1 class="font-[Anton] text-2xl text-center font-bold text-yellow-200 underline decoration-pink-600 decoration-3">Dear Memories</h1>
+        <p class="text-white font-semibold"><a class="underline decoration-2 decoration-yellow-500">Setiap momen</a> yang terlewati adalah bagian dari perjalanan hidup yang tak akan tergantikan. Ada tawa yang masih terdengar dalam ingatan, air mata yang mengajarkan arti ketegaran, dan cerita yang selalu layak untuk dikenang. Waktu mungkin terus berjalan,<a class="underline decoration-2 decoration-red-500">tetapi kenangan akan selalu menetap,</a> menjadi bagian dari siapa kita hari ini. <a class="underline decoration-2 decoration-yellow-500">Inilah tempat di mana semua memori tersimpan, </a>sebagai pengingat betapa berharganya setiap detik yang telah berlalu.</p>
+        <img src="download.png">
+    </div>
+
+    <section id="Myself" class="bg-purple-300/70 rounded-md p-6 m-6 shadow-xl" data-aos="fade-left">
+            <h1 class="text-2x1 text-xl text-pink-800 font-[Sigmar] text-center font-semibold">Myself</h1>
+             <p class="text-yellow-700 font-semibold">
+            Halo! Namaku <a class="underline decoration-2 decoration-rose-300"> Alma Kayla Putri</a>, salah satu mahasiswi Universitas Mulawarman, Fakultas Keguruan dan Ilmu Pendidikan, Program studi Pendidikan Komputer. Biasanya saat tidak ada kesibukan, aku mengisi waktu dengan bermain game. Selain itu aku juga memiliki hobby cosplay. Aku sudah mendalami hobby ini selama 2 tahun, banyak sekali pengalaman yang ku dapat selama 2 tahun terakhir. Ini dia beberapa foto diriku saat cosplay, biasanya cosplay di rumah untuk sekedar membuat konten atau di sebuah event.
+             </p>
+        <div class="columns-2 md:columns-3 gap-3 p-4">
+             <img src="WhatsApp Image 2025-03-07 at 22.29.35_65b72cce.jpg" class="w-full h-auto rounded-lg" alt="Tall Photo">
+             <img src="DSC05352.jpg" class="w-full h-auto rounded-lg" alt="Wide Photo">
+             <img src="WhatsApp Image 2025-03-07 at 22.29.34_e0b71432.jpg" class="w-full h-auto rounded-lg" alt="Medium Photo">
+             <img src="Chivalreis Commish-41.jpg" class="w-full h-auto rounded-lg" alt="Tall Photo">
+        </div>
+    </section>
+    <hr>
+    <section id="Activities" class="bg-green-300/70 rounded-md p-6 m-6 shadow-xl" data-aos="fade-down">
+            <h1 class="text-2x1 text-xl text-purple-900 font-[Sigmar] text-center font-semibold">Activities</h1>
+             <p class="text-blue-950 font-semibold">
+            Selain hanya bercosplay, biasanya aku dan teman teman ku sering mengisi acara event dengan penampilan <a class="underline decoration-2 decoration-yellow-300"> Dance cover.</a> Jadi jika tidak ada jadwal kuliah, aku biasanya ikut latihan bersama teman-teman. Tentu saja semua hasil ini berkat dukungan dari <a class="underline decoration-2 decoration-red-600">teman temanku</a> yang selalu support dan saling bahu membahu untuk mendirikan komunitas kami sendiri.</a>
+             </p>
+        <div class="columns-2 md:columns-3 gap-3 p-4">
+             <img src="WhatsApp Image 2025-03-07 at 23.31.32_ed2dbd12.jpg" class="w-full h-auto rounded-lg" alt="wide Photo">
+             <img src="WhatsApp Image 2025-03-07 at 23.32.12_fff1350c.jpg" class="w-full h-auto rounded-lg" alt="wide Photo">
+             <img src="WhatsApp Image 2025-03-07 at 23.30.48_84f44da8.jpg" class="w-full h-auto rounded-lg" alt="tall Photo">
+             <img src="WhatsApp Image 2025-03-07 at 23.30.47_c0c34959.jpg" class="w-full h-auto rounded-lg" alt="Tall Photo">
+        </div>
+    </section>
+     <hr>
+    <section id="MyFriends" class="bg-pink-300/70 rounded-md p-6 m-6 shadow-xl" data-aos="fade-down">
+            <h1 class="text-2x1 text-xl text-blue-900 font-[Sigmar] text-center font-semibold">My Friends</h1>
+             <p class="text-violet-950 font-semibold">
+             Honorable mention teruntuk teman temanku yang ku kenal dari kampus, berawal dari semester satu hingga kemana mana selalu berempat. Mengerjakan tugas, healing time, atau bahkan cari makan siang bareng.
+             </p>
+        <div class="columns-2 md:columns-3 gap-3 p-4">
+             <img src="WhatsApp Image 2025-03-07 at 23.51.37_05d3fa51.jpg" class="w-full h-auto rounded-lg" alt="Medium Photo">
+             <img src="WhatsApp Image 2025-03-07 at 23.51.37_2de33aaf.jpg" class="w-full h-auto rounded-lg" alt="wide Photo">
+             <img src="WhatsApp Image 2025-03-07 at 23.51.38_072930bc.jpg" class="w-full h-auto rounded-lg" alt="wide Photo">
+             <img src="WhatsApp Image 2025-03-07 at 23.51.37_be16a9bb.jpg" class="w-full h-auto rounded-lg" alt="Tall Photo">
+        </div>
+
+    </section>
+
+</div>
+</body>
+
+</html>

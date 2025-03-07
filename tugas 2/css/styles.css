@@ -1,0 +1,130 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+.jumbotron{
+    font-size: 15px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(201, 144, 255);
+    padding: 50px;
+    border-radius: 16px;
+    border-style: ridge;
+}
+
+nav{
+    background-color: rgb(201, 144, 255);
+    padding: 10px;
+    border-radius: 16px;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 6px;
+}
+
+nav ul li a{
+    text-decoration: wavy;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    transition: padding 0,2s ease-in-out;
+}
+
+nav ul li a:hover{
+    background-color: rgb(25, 102, 48);
+    padding: 0,75em;
+    border-radius: 8px;
+}
+.box-green {
+    background-color: aquamarine;
+    text-align: justify;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 12px;
+    border-style: dotted;
+    box-shadow: 10px 5px 5px black;
+}
+
+.box-pink {
+    background-color: palevioletred;
+    text-align: justify;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 12px;
+    border-style: dotted;
+    box-shadow: 10px 5px 5px rgb(255, 246, 120);
+}
+
+.box-purple {
+    background-color: #DD88CF;
+    text-align: justify;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 12px;
+    border-style: dotted;
+    box-shadow: 10px 5px 5px rgb(255, 142, 142);
+}
+
+.box-red {
+    background-color: #D84040;
+    text-align: justify;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 12px;
+    border-style: dotted;
+    box-shadow: 10px 5px 5px rgb(249, 127, 253);
+}
+
+.box-matcha {
+    background-color: #809D3C;
+    text-align: justify;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 12px;
+    border-style: dotted;
+    box-shadow: 10px 5px 5px rgb(236, 255, 129);
+} 
+
+.box-blue {
+    background-color: #A3D1C6;
+    text-align: justify;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 12px;
+    border-style: dotted;
+    box-shadow: 10px 5px 5px rgb(245, 137, 137);
+}
+
+.box-pink img{
+    border-radius: 20px;
+    width: 100;
+}
+
+.box-blue img{
+    border-radius: 20px;
+    width: 100;
+}
+
+.box-red img{
+    border-radius: 20px;
+    width: 100;
+}
+.box-green img{
+    border-radius: 20px;
+    width: 100;
+}
+.box-matcha img{
+    border-radius: 20px;
+    width: 100;
+}
+.box-purple img{
+    border-radius: 20px;
+    width: 100;
+}
+.box-pink h1{
+    color: rgb(226, 43, 89);
+}
